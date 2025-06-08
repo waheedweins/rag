@@ -1,1 +1,5 @@
-langchain-google-genai pypdf langchain-qdrant streamlit qdrant-client
+langchain-google-genai
+pypdf
+langchain-qdrant
+streamlit
+qdrant-client
