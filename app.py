@@ -15,7 +15,7 @@ os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 llm = GoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7)
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 # Load and process PDF document
-file_path = "rag_st_cloud/data/grow_rich.pdf"
+file_path = "data/grow_rich.pdf"
 loader = PyPDFLoader(file_path)
 doc = loader.load()
 document = doc[18:]  # Skipping some front pages
