@@ -3,3 +3,5 @@ pypdf
 langchain-qdrant
 streamlit
 qdrant-client
+langchain
+langchain-community
